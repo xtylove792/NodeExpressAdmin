@@ -55,4 +55,4 @@ router.get('/system/getPositionTreeJson', auth.loginRequired, system.getPosition
 router.use((req, res) => {
     res.render('404');
 });
-module.exports = router; //导出
+module.exports = router; //导出test
